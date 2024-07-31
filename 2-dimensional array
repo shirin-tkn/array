@@ -1,0 +1,13 @@
+def arr(x,y):
+    my_list=[]
+    for i in range(x):
+        mylist = []
+        for j in range(y):
+            mylist.append(i * j)
+        my_list.append(mylist)
+    print(my_list)
+
+
+if __name__ == '__main__':
+    x, y = int(input("Enter a number: ")), int(input("Enter a number: "))
+    arr(x,y)
